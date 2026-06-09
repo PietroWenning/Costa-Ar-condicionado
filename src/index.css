@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0066FF;
+  --color-primary-dark: #0052CC;
+  --color-primary-light: #3385FF;
+  --color-secondary: #0F172A;
+  --color-success: #00C853;
+  --color-bg: #F8FAFC;
+  --color-text: #1E293B;
+  --color-muted: #64748B;
+  --font-display: 'Inter', sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #1E293B;
+  font-family: 'Inter', sans-serif;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0066FF !important;
+}
